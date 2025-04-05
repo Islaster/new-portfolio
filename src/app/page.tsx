@@ -29,6 +29,22 @@ export default function Home() {
         </Button>
       </section>
 
+      {/* About Me */}
+      <section className="mb-20">
+        <h2 className="text-2xl md:text-4xl font-semibold mb-6">About Me</h2>
+        <p className="text-lg max-w-2xl">
+          I&apos;m a fullstack developer with a passion for clean code, creative
+          software, and cutting-edge tools. Whether I&apos;m building from
+          scratch or improving legacy systems, I thrive in fast-paced
+          environments where I can take full ownership of the stack.
+        </p>
+        <p className="text-lg max-w-2xl mt-4">
+          Lately, I&apos;ve been focused on integrating AI workflows (like
+          ComfyUI and ChatGPT API) and scaling web apps with AWS and serverless
+          infrastructure.
+        </p>
+      </section>
+
       {/* Projects Section */}
       <section className="mb-20">
         <h2 className="text-2xl md:text-4xl font-semibold mb-6">
@@ -65,22 +81,6 @@ export default function Home() {
             <ProjectCard key={project.title} {...project} />
           ))}
         </div>
-      </section>
-
-      {/* About Me */}
-      <section className="mb-20">
-        <h2 className="text-2xl md:text-4xl font-semibold mb-6">About Me</h2>
-        <p className="text-lg max-w-2xl">
-          I&apos;m a fullstack developer with a passion for clean code, creative
-          software, and cutting-edge tools. Whether I&apos;m building from
-          scratch or improving legacy systems, I thrive in fast-paced
-          environments where I can take full ownership of the stack.
-        </p>
-        <p className="text-lg max-w-2xl mt-4">
-          Lately, I&apos;ve been focused on integrating AI workflows (like
-          ComfyUI and ChatGPT API) and scaling web apps with AWS and serverless
-          infrastructure.
-        </p>
       </section>
 
       {/* Contact */}
