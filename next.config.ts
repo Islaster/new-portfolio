@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   /* config options here */
+  // Explicitly tell Next.js about your src directory structure
+  reactStrictMode: true,
+  swcMinify: true
 };
 
-export default nextConfig;
+module.exports = nextConfig;

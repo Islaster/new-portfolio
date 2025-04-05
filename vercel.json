@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "buildCommand": "next build",
+    "framework": {
+      "name": "nextjs",
+      "version": "15.2.x"
+    }
+  }
