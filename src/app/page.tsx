@@ -21,7 +21,9 @@ export default function Home() {
         </p>
         <Button
           onClick={() =>
-            (window.location.href = "mailto:isaac.laster812@gmail.com")
+            document
+              .getElementById("contact")
+              ?.scrollIntoView({ behavior: "smooth" })
           }
           className="mt-4"
         >
@@ -84,7 +86,7 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section>
+      <section id="contact">
         <h2 className="text-2xl md:text-4xl font-semibold mb-6">
           Get in Touch
         </h2>
