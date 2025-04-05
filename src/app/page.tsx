@@ -113,7 +113,11 @@ export default function Home() {
           </a>
           .
         </p>
-        <Button variant="outline">View My Resume</Button>
+        <Button variant="outline" asChild>
+          <a href="/resume" target="_self">
+            View My Resume
+          </a>
+        </Button>
       </section>
     </main>
   );
