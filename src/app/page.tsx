@@ -71,14 +71,14 @@ export default function Home() {
       <section className="mb-20">
         <h2 className="text-2xl md:text-4xl font-semibold mb-6">About Me</h2>
         <p className="text-lg max-w-2xl">
-          I'm a fullstack developer with a passion for clean code, creative
-          software, and cutting-edge tools. Whether I'm building from scratch or
-          improving legacy systems, I thrive in fast-paced environments where I
-          can take full ownership of the stack.
+          I&apos;m a fullstack developer with a passion for clean code, creative
+          software, and cutting-edge tools. Whether I&apos;m building from
+          scratch or improving legacy systems, I thrive in fast-paced
+          environments where I can take full ownership of the stack.
         </p>
         <p className="text-lg max-w-2xl mt-4">
-          Lately, I've been focused on integrating AI workflows (like ComfyUI
-          and ChatGPT API) and scaling web apps with AWS and serverless
+          Lately, I&apos;ve been focused on integrating AI workflows (like
+          ComfyUI and ChatGPT API) and scaling web apps with AWS and serverless
           infrastructure.
         </p>
       </section>

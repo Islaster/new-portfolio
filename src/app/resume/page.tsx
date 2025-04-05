@@ -57,8 +57,8 @@ export default function ResumePage() {
           <p className="italic">Fullstack Engineer | 06/2024 - Current</p>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
-              Architected and developed NHG's first website using PHP, HTML,
-              CSS, and JavaScript.
+              Architected and developed NHG&apos;s first website using PHP,
+              HTML, CSS, and JavaScript.
             </li>
             <li>
               Engineered seamless Google Sheets API integration to automate
