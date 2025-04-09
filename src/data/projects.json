@@ -38,7 +38,14 @@
         "description": "A custom admin dashboard with Supabase Auth and UI management, built for a client-facing internal tool.",
         "tech": "Next.js, Supabase, Tailwind CSS",
         "link": "https://admin-dashboard-mauve-beta.vercel.app"
+      },
+      {
+        "title": "Fake Store API App",
+        "description": "A full-stack MVP that uses a Python FastAPI backend and a React TypeScript frontend to fetch, filter, and display products. Features include cart functionality, Stripe integration, and dynamic product detail views.",
+        "tech": "React (Vite), TypeScript, FastAPI, Stripe, Tailwind CSS",
+        "link": "https://price-tracker-and-competitor-analyzer.vercel.app/"
       }
+      
     ]
   }
   
