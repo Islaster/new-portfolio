@@ -1,52 +1,49 @@
 {
-    "work": [
-      {
-        "title": "Photobooth Kiosk App",
-        "description": "Event tool that increased engagement by 25% and won CGW's Silver Edge Award.",
-        "tech": "React, Express, AWS, SQLite3",
-        "link": "https://photobooth-kiosk.vercel.app"
-      },
-      {
-        "title": "NHG E-Commerce Site",
-        "description": "Building the first web presence for a haircare brand with automation via Google Sheets API.",
-        "tech": "PHP, JavaScript, Google Sheets API, PostgreSQL"
-      },
-      {
-        "title": "Event Integration Backend",
-        "description": "Backend for queer event app integrating Eventbrite and automating dev workflows.",
-        "tech": "Node.js, Supabase, Docker, REST APIs"
-      },
-      {
-        "title": "ComfyUI + S3 Integration",
-        "description": "Live polling + image generation pipeline with ComfyUI on EC2 + mounted S3 bucket.",
-        "tech": "React, Python, AWS EC2, S3, ComfyUI"
-      },
-      {
-        "title": "AI Automation Scripts",
-        "description": "Developed bash/Python scripts for NVIDIA Neuralangelo, Gaussian Splatting, and DeepFaceLab.",
-        "tech": "Python, Bash, NVIDIA Tools"
-      },
-      {
-        "title": "Legacy Hardware Upgrade",
-        "description": "Transformed old desktops into AI-ready rigs for virtual production workflows.",
-        "tech": "Linux, Windows, hardware config, automation"
-      }
-    ],
-    "personal": [
-      {
-        "title": "Admin Dashboard",
-        "description": "A custom admin dashboard with Supabase Auth and UI management, built for a client-facing internal tool.",
-        "tech": "Next.js, Supabase, Tailwind CSS",
-        "link": "https://admin-dashboard-mauve-beta.vercel.app"
-      },
-      {
-        "title": "Fake Store API App",
-        "description": "A full-stack MVP that uses a Python FastAPI backend and a React TypeScript frontend to fetch, filter, and display products. Features include cart functionality, Stripe integration, and dynamic product detail views.",
-        "tech": "React (Vite), TypeScript, FastAPI, Stripe, Tailwind CSS",
-        "link": "https://price-tracker-and-competitor-analyzer.vercel.app/"
-      }
-      
-    ]
-  }
-  
-  
+  "work": [
+    {
+      "title": "Photobooth Kiosk App",
+      "description": "Event tool that increased engagement by 25% and won CGW's Silver Edge Award.",
+      "tech": "React, Express, AWS, SQLite3",
+      "link": "https://photobooth-kiosk.vercel.app"
+    },
+    {
+      "title": "NHG E-Commerce Site",
+      "description": "Building the first web presence for a haircare brand with automation via Google Sheets API.",
+      "tech": "PHP, JavaScript, Google Sheets API, PostgreSQL"
+    },
+    {
+      "title": "Event Integration Backend",
+      "description": "Backend for queer event app integrating Eventbrite and automating dev workflows.",
+      "tech": "Node.js, Supabase, Docker, REST APIs"
+    },
+    {
+      "title": "ComfyUI + S3 Integration",
+      "description": "Live polling + image generation pipeline with ComfyUI on EC2 + mounted S3 bucket.",
+      "tech": "React, Python, AWS EC2, S3, ComfyUI"
+    },
+    {
+      "title": "AI Automation Scripts",
+      "description": "Developed bash/Python scripts for pipelines integrating NVIDIA Neuralangelo, Gaussian Splatting, and DeepFaceLab.",
+      "tech": "Python, Bash, NVIDIA Tools"
+    },
+    {
+      "title": "Legacy Hardware Upgrade",
+      "description": "Transformed old desktops into AI-ready rigs for virtual production workflows.",
+      "tech": "Linux, Windows, hardware config, automation"
+    }
+  ],
+  "personal": [
+    {
+      "title": "Admin Dashboard",
+      "description": "A custom admin dashboard with Supabase Auth and UI management, built for a client-facing internal tool.",
+      "tech": "Next.js, Supabase, Tailwind CSS",
+      "link": "https://admin-dashboard-mauve-beta.vercel.app"
+    },
+    {
+      "title": "Fake Store API App",
+      "description": "A full-stack MVP that uses a Python FastAPI backend and a React TypeScript frontend to fetch, filter, and display products. Features include cart functionality, Stripe integration, and dynamic product detail views.",
+      "tech": "React (Vite), TypeScript, FastAPI, Stripe, Tailwind CSS",
+      "link": "https://price-tracker-and-competitor-analyzer.vercel.app/"
+    }
+  ]
+}
