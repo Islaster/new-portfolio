@@ -2,7 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   // Add debug output during build
   onDemandEntries: {
     // Keep pages in memory longer during development
