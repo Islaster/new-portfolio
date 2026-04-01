@@ -44,6 +44,22 @@
       "description": "A full-stack MVP that uses a Python FastAPI backend and a React TypeScript frontend to fetch, filter, and display products. Features include cart functionality, Stripe integration, and dynamic product detail views.",
       "tech": "React (Vite), TypeScript, FastAPI, Stripe, Tailwind CSS",
       "link": "https://price-tracker-and-competitor-analyzer.vercel.app/"
+    },
+    {
+      "title": "Nutirition Tracker",
+      "description": "A sleek nutrition tracker that lets you instantly search foods, select serving sizes, and log your daily intake in real time with a clean, intuitive interface.",
+      "tech": "React (Vite), typescript, Fatsecret API, Express.js, Node.js",
+      "link": "https://barcode-smoky-chi.vercel.app/"
+    },
+    {
+      "title": "$650 Enterprise NAS: 16TB RAIDZ2 Build Pushing 400MB/s on a Budget",
+      "description": "Built a $650, 16TB RAIDZ2 TrueNAS system with enterprise SAS drives delivering ~400MB/s sustained throughput, multi-stream ingest, and scalable homelab performance well above its price point.",
+      "tech": "Repurposed $100 PC running TrueNAS (ZFS RAIDZ2) • 8× HGST Ultrastar SAS (HUS723020ALS640) • LSI SAS HBA (IT mode) • USB 3.1 Gen 2 (10Gbps) UGREEN adapters • ~400MB/s sustained multi-stream throughput"
+    },
+    {
+      "title": "Shared LLM Hub on Raspberry Pi",
+      "description": "A self hosted full stack app that wraps LLM APIs in a simple GUI, using Raspberry Pi, Node, React, Cloudflare Tunnel, and Zero Trust to enable secure, pay per use access instead of subscriptions.",
+      "tech": "Raspberry Pi 5 16GB RAM, React, Node.js, Express, LLM APIs, Cloudflare Tunnel, Zero Trust, Linux"
     }
   ]
 }
