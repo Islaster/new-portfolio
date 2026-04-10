@@ -35,21 +35,10 @@ export default function Home() {
       <section className="mb-20">
         <h2 className="text-2xl md:text-4xl font-semibold mb-6">About Me</h2>
         <p className="text-lg max-w-2xl">
-          I&apos;m a fullstack engineer focused on building reliable,
-          production-ready web apps across the stack. I care about clean code,
-          clear data flow, and systems that hold up under real usage.
-        </p>
-        <p className="text-lg max-w-2xl mt-4">
-          I&apos;ve shipped end-to-end features in fast-moving environments,
-          working across React/TypeScript frontends and Node/Python backends,
-          with AWS powering storage and infrastructure. A lot of my recent work
-          centers on real-time GenAI workflows, integrating tools like ComfyUI
-          and the ChatGPT API into responsive, user-facing applications
-        </p>
-        <p className="text-lg max-w-2xl mt-4">
-          I enjoy owning systems from idea to deployment, whether that means
-          building from scratch or improving legacy code to make it faster, more
-          stable, and easier to maintain.
+          I build backend systems and full-stack tools that hold up in
+          production. Most of my work involves Node.js, Python, AWS, and React —
+          shipping APIs, real-time applications, and AI-powered workflows for
+          companies in media, entertainment, and creative tech.
         </p>
       </section>
 

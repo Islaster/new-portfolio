@@ -2,53 +2,53 @@
   "work": [
     {
       "title": "Photobooth Kiosk App",
-      "description": "Event tool that increased engagement by 25% and won CGW's Silver Edge Award.",
+      "description": "Real-time photobooth kiosk with configurable client branding. Increased event engagement by 25%. Won CGW Silver Edge Award at SIGGRAPH 2023.",
       "tech": "React, Express, AWS, SQLite3",
       "link": "https://photobooth-kiosk.vercel.app"
     },
     {
       "title": "NHG E-Commerce Site",
-      "description": "Building the first web presence for a haircare brand with automation via Google Sheets API.",
+      "description": "Built the first web presence for a haircare brand from scratch. Automated lead capture via Google Sheets API, eliminating manual data entry.",
       "tech": "PHP, JavaScript, Google Sheets API, PostgreSQL"
     },
     {
       "title": "Event Integration Backend",
-      "description": "Backend for queer event app integrating Eventbrite and automating dev workflows.",
+      "description": "Backend API for a queer event discovery app. Integrated Eventbrite for live event data and containerized dev workflows with Docker.",
       "tech": "Node.js, Supabase, Docker, REST APIs"
     },
     {
       "title": "ComfyUI + S3 Integration",
-      "description": "Live polling + image generation pipeline with ComfyUI on EC2 + mounted S3 bucket.",
+      "description": "Real-time image generation pipeline polling ComfyUI on EC2 with S3-mounted storage. Used in production creative workflows at Davant Systems.",
       "tech": "React, Python, AWS EC2, S3, ComfyUI"
     },
     {
       "title": "AI Automation Scripts",
-      "description": "Developed bash/Python scripts for pipelines integrating NVIDIA Neuralangelo, Gaussian Splatting, and DeepFaceLab.",
+      "description": "Pipeline automation scripts for NVIDIA Neuralangelo, Gaussian Splatting, and DeepFaceLab. Reduced manual setup time for 3D capture and neural rendering workflows.",
       "tech": "Python, Bash, NVIDIA Tools"
     },
     {
       "title": "Legacy Hardware Upgrade",
-      "description": "Transformed old desktops into AI-ready rigs for virtual production workflows.",
+      "description": "Rebuilt consumer desktops into GPU-accelerated rigs for Stable Diffusion and virtual production pipelines. Saved thousands vs. buying new hardware.",
       "tech": "Linux, Windows, hardware config, automation"
     }
   ],
   "personal": [
     {
       "title": "Admin Dashboard",
-      "description": "A custom admin dashboard with Supabase Auth and UI management, built for a client-facing internal tool.",
+      "description": "Client-facing internal tool with Supabase Auth, role-based access, and UI management for content and user administration.",
       "tech": "Next.js, Supabase, Tailwind CSS",
       "link": "https://admin-dashboard-mauve-beta.vercel.app"
     },
     {
-      "title": "Fake Store API App",
-      "description": "A full-stack MVP that uses a Python FastAPI backend and a React TypeScript frontend to fetch, filter, and display products. Features include cart functionality, Stripe integration, and dynamic product detail views.",
+      "title": "E-Commerce Store",
+      "description": "Full-stack store with FastAPI backend and React TypeScript frontend. Features cart, Stripe checkout, product filtering, and dynamic detail views.",
       "tech": "React (Vite), TypeScript, FastAPI, Stripe, Tailwind CSS",
       "link": "https://price-tracker-and-competitor-analyzer.vercel.app/"
     },
     {
-      "title": "Nutirition Tracker",
-      "description": "A sleek nutrition tracker that lets you instantly search foods, select serving sizes, and log your daily intake in real time with a clean, intuitive interface.",
-      "tech": "React (Vite), typescript, Fatsecret API, Express.js, Node.js",
+      "title": "Nutrition Tracker",
+      "description": "Real-time nutrition tracker with food search, serving size selection, and daily intake logging. Pulls data from the FatSecret API.",
+      "tech": "React (Vite), TypeScript, FatSecret API, Express.js, Node.js",
       "link": "https://barcode-smoky-chi.vercel.app/"
     },
     {
@@ -58,8 +58,8 @@
     },
     {
       "title": "Shared LLM Hub on Raspberry Pi",
-      "description": "A self hosted full stack app that wraps LLM APIs in a simple GUI, using Raspberry Pi, Node, React, Cloudflare Tunnel, and Zero Trust to enable secure, pay per use access instead of subscriptions.",
-      "tech": "Raspberry Pi 5 16GB RAM, React, Node.js, Express, LLM APIs, Cloudflare Tunnel, Zero Trust, Linux"
+      "description": "Self-hosted full-stack app wrapping LLM APIs in a simple GUI. Runs on a Raspberry Pi with Cloudflare Tunnel and Zero Trust for secure, pay-per-use access instead of monthly subscriptions.",
+      "tech": "Raspberry Pi 5, React, Node.js, Express, LLM APIs, Cloudflare Tunnel, Zero Trust, Linux"
     }
   ]
 }
