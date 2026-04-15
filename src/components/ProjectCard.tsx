@@ -5,6 +5,7 @@ interface ProjectCardProps {
   description: string;
   tech: string;
   link?: string;
+  demo_link?: string;
 }
 
 export default function ProjectCard({
@@ -12,6 +13,7 @@ export default function ProjectCard({
   description,
   tech,
   link,
+  demo_link,
 }: ProjectCardProps) {
   return (
     <div>
@@ -27,6 +29,22 @@ export default function ProjectCard({
         >
           Visit Live App →
         </a>
+      )}
+      {demo_link && (
+        <>
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 text-blue-600 hover:underline"
+          >
+            View Demo →
+          </a>
+          <p className="text-sm text-gray-500 mt-1">
+            Live kiosk runs on local hardware at events — this is a preview of
+            the client-facing interface.
+          </p>
+        </>
       )}
     </div>
   );

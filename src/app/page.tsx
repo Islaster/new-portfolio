@@ -16,8 +16,9 @@ export default function Home() {
           Isaac Laster
         </h1>
         <p className="text-lg md:text-xl max-w-xl mb-6">
-          Fullstack developer building scalable software at the intersection of
-          AI, creative tech, and the web.
+          Backend-heavy full-stack engineer | 5+ years shipping production APIs,
+          cloud infrastructure, and AI workflows that don't break when real
+          users show up.
         </p>
         <Button
           onClick={() =>

@@ -2,34 +2,24 @@
   "work": [
     {
       "title": "Photobooth Kiosk App",
-      "description": "Real-time photobooth kiosk with configurable client branding. Increased event engagement by 25%. Won CGW Silver Edge Award at SIGGRAPH 2023.",
+      "description": "Real-time photobooth kiosk built for live events — configurable client branding, instant photo delivery, and a client-facing UI running on local hardware. Increased event engagement by 25%. Part of the product that won the CGW Silver Edge Award at SIGGRAPH 2023.",
       "tech": "React, Express, AWS, SQLite3",
-      "link": "https://photobooth-kiosk.vercel.app"
+      "demo_link": "https://photobooth-kiosk.vercel.app"
     },
     {
       "title": "NHG E-Commerce Site",
-      "description": "Built the first web presence for a haircare brand from scratch. Automated lead capture via Google Sheets API, eliminating manual data entry.",
+      "description": "Built a haircare brand's first web presence end-to-end — storefront, product pages, and automated lead capture via Google Sheets API that eliminated manual data entry. Delivered to client as a complete, production-ready package.",
       "tech": "PHP, JavaScript, Google Sheets API, PostgreSQL"
     },
     {
       "title": "Event Integration Backend",
-      "description": "Backend API for a queer event discovery app. Integrated Eventbrite for live event data and containerized dev workflows with Docker.",
+      "description": "Backend API powering a queer event discovery app. Integrated Eventbrite for live event ingestion, built REST endpoints for the frontend team, and containerized the full dev environment with Docker.",
       "tech": "Node.js, Supabase, Docker, REST APIs"
     },
     {
-      "title": "ComfyUI + S3 Integration",
-      "description": "Real-time image generation pipeline polling ComfyUI on EC2 with S3-mounted storage. Used in production creative workflows at Davant Systems.",
-      "tech": "React, Python, AWS EC2, S3, ComfyUI"
-    },
-    {
-      "title": "AI Automation Scripts",
-      "description": "Pipeline automation scripts for NVIDIA Neuralangelo, Gaussian Splatting, and DeepFaceLab. Reduced manual setup time for 3D capture and neural rendering workflows.",
-      "tech": "Python, Bash, NVIDIA Tools"
-    },
-    {
-      "title": "Legacy Hardware Upgrade",
-      "description": "Rebuilt consumer desktops into GPU-accelerated rigs for Stable Diffusion and virtual production pipelines. Saved thousands vs. buying new hardware.",
-      "tech": "Linux, Windows, hardware config, automation"
+      "title": "Cloud Stable Diffusion Infrastructure",
+      "description": "Deployed Stable Diffusion to AWS with horizontal auto-scaling — automated spin-up and teardown of EC2 instances based on demand. Built the cloud infrastructure behind Davant Systems' SIGGRAPH 2023 award-winning Stable Diffusion interface.",
+      "tech": "Python, AWS EC2, Auto Scaling, Stable Diffusion"
     }
   ],
   "personal": [
