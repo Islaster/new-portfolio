@@ -17,11 +17,10 @@ export default function ResumePage() {
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-2">Summary</h2>
         <p>
-          Hardworking and dependable full-stack developer known for taking
-          complete ownership of projects and consistently delivering
-          high-quality results. Thrives under pressure, independently managing
-          complex tasks across web apps, AI, and virtual production while
-          meeting tight deadlines and exceeding expectations.
+          Backend-heavy full-stack engineer with 5+ years shipping production
+          APIs, cloud infrastructure, and AI workflows. Experienced across
+          Node.js, Python, AWS, PostgreSQL, and React — building systems that
+          hold up when real users show up.
         </p>
       </section>
 
@@ -30,19 +29,15 @@ export default function ResumePage() {
         <ul className="list-disc list-inside space-y-1">
           <li>
             <strong>Languages & Frameworks:</strong> JavaScript, TypeScript,
-            Python, React.js, Express.js, HTML, CSS, Node.js, jQuery, Bootstrap,
-            Next
+            Python, React, Next.js, Express, Node.js, PHP
           </li>
           <li>
-            <strong>Tools & Platforms:</strong> Git, GitHub, MongoDB,
-            PostgreSQL, Windows, Linux, Mac, AWS(EC2, S3)
+            <strong>Cloud & Infrastructure:</strong> AWS (EC2, S3, Auto
+            Scaling), Docker, Supabase, PostgreSQL, MongoDB, SQLite
           </li>
           <li>
-            <strong>Methodologies:</strong> Agile, SCRUM
-          </li>
-          <li>
-            <strong>Soft Skills:</strong> Communication, Collaboration,
-            Motivation
+            <strong>AI & Tools:</strong> ComfyUI, Stable Diffusion, DeepSeek
+            API, Socket.IO, REST APIs, Git
           </li>
         </ul>
       </section>
@@ -52,129 +47,104 @@ export default function ResumePage() {
 
         <div className="mb-6">
           <h3 className="text-lg font-bold">
-            NHG (E-commerce website), San Francisco, CA
+            gruntWAVE LLC — Full Stack Engineer (Project-Based Contract)
           </h3>
-          <p className="italic">Fullstack Engineer | 06/2024 - Current</p>
+          <p className="italic">
+            Nov 2025 – Present | Los Angeles, CA · Remote
+          </p>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
-              Architected and developed NHG&apos;s first website using PHP,
-              HTML, CSS, and JavaScript.
+              Sole fullstack developer building 3D content pipeline automations
+              in Blender for 3D artists.
             </li>
             <li>
-              Engineered seamless Google Sheets API integration to automate
-              client contact management.
-            </li>
-            <li>
-              Designed a scalable PostgreSQL database system to future-proof
-              operations and enable app development.
-            </li>
-            <li>
-              Implemented visually stunning parallax animations to increase
-              visitor retention and engagement.
-            </li>
-            <li>
-              Independently spearheaded the end-to-end development lifecycle as
-              the sole technical hire.
+              Architecting Python-based tooling to automate repetitive
+              production workflows.
             </li>
           </ul>
         </div>
 
         <div className="mb-6">
           <h3 className="text-lg font-bold">
-            Davant Systems (AI Creative Software), Los Angeles, CA
+            Sony — 3D Capture Project Support (Project-Based Contract)
           </h3>
-          <p className="italic">Full-Stack Engineer | 03/2023 - Current</p>
+          <p className="italic">
+            May 2025 – Apr 2026 | Culver City, CA · Hybrid
+          </p>
           <ul className="list-disc list-inside mt-2 space-y-1">
+            <li>Supported a confidential 3D capture project under NDA.</li>
             <li>
-              Engineered AWS cloud infrastructure and mounted S3 storage,
-              elevating scalability and efficiency.
-            </li>
-            <li>
-              Solely developed the Photobooth Kiosk app, driving event
-              engagement with custom client branding.
-            </li>
-            <li>
-              Represented the company at SIGGRAPH and NAB, securing the
-              prestigious CGW Silver Edge Award.
-            </li>
-            <li>
-              Delivered compelling software demos to diverse audiences, boosting
-              industry recognition and partnerships.
+              Built and maintained data collection workflows and validation
+              processes for photogrammetry pipelines.
             </li>
           </ul>
         </div>
 
         <div className="mb-6">
           <h3 className="text-lg font-bold">
-            Qeery (Queer Based Events App), Los Angeles, CA
+            Davant Systems — Full-Stack Developer (Project-Based Contract)
           </h3>
-          <p className="italic">Backend Engineer | 02/2024 - 01/2025</p>
+          <p className="italic">
+            Mar 2023 – Feb 2026 | Los Angeles, CA · Hybrid
+          </p>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
-              Integrated Eventbrite and other third-party APIs, driving enhanced
-              app functionality.
+              Deployed Stable Diffusion to AWS with horizontal auto-scaling
+              &mdash; automated spin-up and teardown of EC2 instances based on
+              demand.
             </li>
             <li>
-              Designed DevOps workflow in Docker and Supabase to ensure parity
-              between local and production databases.
+              Built the Photobooth Kiosk app end-to-end — real-time photo
+              delivery with configurable client branding. Increased event
+              engagement by 25%.
             </li>
             <li>
-              Delivered API and data management solutions independently. Cut
-              down on load time for data retrieval.
+              Infrastructure and product work contributed to winning the CGW
+              Silver Edge Award at SIGGRAPH 2023.
+            </li>
+            <li>
+              Represented the company at SIGGRAPH and NAB, delivering live
+              software demos to industry audiences.
             </li>
           </ul>
         </div>
 
         <div className="mb-6">
           <h3 className="text-lg font-bold">
-            Global Objects (Virtual Production Company), Los Angeles, CA
+            Qeery — Backend Engineer (Project-Based Contract)
           </h3>
-          <p className="italic">Software Engineer | 05/2023 - 02/2024</p>
+          <p className="italic">Feb 2024 – Jan 2025 | Los Angeles, CA</p>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
-              Transformed outdated hardware into AI-ready systems, slashing
-              costs and enhancing company capabilities.
+              Built the backend API for a queer event discovery app — REST
+              endpoints, Eventbrite integration for live event ingestion.
             </li>
             <li>
-              Evaluated and integrated groundbreaking AI tools including
-              Neuralangelo, Gaussian Splatting, and DeepFaceLab.
-            </li>
-            <li>
-              Set up and supported workstations for production sets, ensuring
-              seamless performance on critical projects.
-            </li>
-            <li>
-              Created robust automation scripts, streamlining workflows and
-              boosting company efficiency by 40%.
+              Containerized the full dev environment with Docker and Supabase to
+              ensure parity between local and production databases.
             </li>
           </ul>
         </div>
 
         <div className="mb-6">
           <h3 className="text-lg font-bold">
-            Freelance (Multiple Clients), Los Angeles, CA
+            NHG — Fullstack Engineer (Project-Based Contract)
           </h3>
-          <p className="italic">Full-Stack Engineer | 02/2022 - 01/2024</p>
+          <p className="italic">
+            Jun 2024 – Dec 2024 | San Francisco, CA · Remote
+          </p>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
-              Developed dynamic web apps with MERN, streamlining client
-              operations and user onboarding.
+              Built the brand&apos;s first web presence end-to-end — storefront,
+              product pages, and automated lead capture via Google Sheets API
+              that eliminated all manual data entry.
             </li>
             <li>
-              Designed filtering systems and interactive graphs to simplify
-              inventory management and insights.
+              Designed a PostgreSQL database to future-proof operations and
+              enable future app development.
             </li>
             <li>
-              Debugged SMTP issues, restored email access, and improved
-              communication infrastructure.
-            </li>
-            <li>
-              Optimized technical SEO, achieving higher Google rankings and
-              increased organic traffic.
-            </li>
-            <li>
-              Built ComfyUI and data transformation pipelines using AWS EC2, S3,
-              React, and ChatGPT API.
+              Delivered as a complete, production-ready package to the client.
             </li>
           </ul>
         </div>
@@ -186,7 +156,7 @@ export default function ResumePage() {
           <strong>General Assembly, San Francisco, CA</strong>
         </p>
         <p className="italic">
-          Software Engineering Certification | 11/2021 - 02/2022
+          Software Engineering Certification | Nov 2021 – Feb 2022
         </p>
       </section>
     </main>
