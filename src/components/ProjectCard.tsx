@@ -32,6 +32,16 @@ export default function ProjectCard({
             href={link}
             target="_blank"
             rel="noopener noreferrer"
+            className="inline-block mt-2 text-blue-600 hover:underline"
+          >
+            Visit Live App →
+          </a>
+        )}
+        {demo_link && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-blue-600 hover:underline text-sm"
           >
             View Demo →
