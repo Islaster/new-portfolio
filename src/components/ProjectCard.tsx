@@ -39,7 +39,7 @@ export default function ProjectCard({
         )}
         {demo_link && (
           <a
-            href={link}
+            href={demo_link}
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline text-sm"
