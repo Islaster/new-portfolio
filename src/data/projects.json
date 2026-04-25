@@ -27,7 +27,7 @@
       "title": "Sloomoo: AI Holiday Wish Experience",
       "description": "Full-stack GenAI web app built for a live holiday event at Sloomoo Institute. Users submit a wish and receive a custom AI-generated poem and unique image in real time. Built the Express API, Socket.IO live streaming layer, ComfyUI integration for image generation, and AWS S3 pipeline for output delivery.",
       "tech": "React, Node.js, Socket.IO, AWS S3, ComfyUI, DeepSeek API",
-      "link": "https://sloomoo.vercel.app/",
+      "demo_link": "https://sloomoo.vercel.app/",
       "demo_video": "https://www.youtube.com/embed/RnYeIBF-DtQ",
       "github_link": "https://github.com/Islaster/sloomoo_React_Node"
     },
