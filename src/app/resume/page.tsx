@@ -17,10 +17,14 @@ export default function ResumePage() {
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-2">Summary</h2>
         <p>
-          Backend-heavy full-stack engineer with 5+ years shipping production
-          APIs, cloud infrastructure, and AI workflows. Experienced across
-          Node.js, Python, AWS, PostgreSQL, and React — building systems that
-          hold up when real users show up.
+          Backend-leaning full-stack engineer with roughly five years of
+          experience across IT/infrastructure operations, cloud systems, and
+          end-to-end product delivery. Has owned AWS infrastructure (S3, IAM,
+          Lambda) and cross-platform data-sync pipelines, hardened
+          AI-generated code for production release, and built early-stage LLM
+          function-calling systems. Comfortable moving between backend
+          services, cloud operations, and React/Node front-end work as the
+          problem demands.
         </p>
       </section>
 
@@ -28,136 +32,187 @@ export default function ResumePage() {
         <h2 className="text-2xl font-semibold mb-2">Technologies & Skills</h2>
         <ul className="list-disc list-inside space-y-1">
           <li>
-            <strong>Languages & Frameworks:</strong> JavaScript, TypeScript,
-            Python, React, Next.js, Express, Node.js, PHP
+            <strong>Languages & Frameworks:</strong> Python, JavaScript,
+            TypeScript, React, Next.js, Node.js, Express, Fastify, FastAPI
           </li>
           <li>
-            <strong>Cloud & Infrastructure:</strong> AWS (EC2, S3, Auto
-            Scaling), Docker, Supabase, PostgreSQL, MongoDB, SQLite
+            <strong>Cloud & Infrastructure:</strong> AWS (S3, Lambda, IAM),
+            Docker, SQLite3, MongoDB
           </li>
           <li>
-            <strong>AI & Tools:</strong> ComfyUI, Stable Diffusion, DeepSeek
-            API, Socket.IO, REST APIs, Git
+            <strong>Integrations & APIs:</strong> Airtable, ShotGrid,
+            Backblaze, Eventbrite API
+          </li>
+          <li>
+            <strong>AI & LLM:</strong> LLM function-calling & tool
+            orchestration (FastAPI-based)
           </li>
         </ul>
       </section>
 
-      <section className="mb-10">
+      <section>
         <h2 className="text-2xl font-semibold mb-4">Work Experience</h2>
 
         <div className="mb-6">
           <h3 className="text-lg font-bold">
-            gruntWAVE LLC — Full Stack Engineer (Project-Based Contract)
+            IT/Pipeline Engineer — 30 Ninjas
           </h3>
-          <p className="italic">
-            Nov 2025 – Present | Los Angeles, CA · Remote
-          </p>
+          <p className="italic">May 2026 – Present</p>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
-              Sole fullstack developer building 3D content pipeline automations
-              in Blender for 3D artists.
+              Designed and implemented the organization&apos;s AWS S3 bucket
+              structure and IAM permission scheme, establishing role-based
+              access company-wide.
             </li>
             <li>
-              Architecting Python-based tooling to automate repetitive
-              production workflows.
+              Built Python-based migration and sync pipelines moving data
+              across AWS, Airtable, ShotGrid, and Backblaze, replacing manual
+              transfers with automated workflows.
+            </li>
+            <li>
+              Wrote AWS Lambda functions to automate sync with third-party
+              integrations as new tooling needs came up.
+            </li>
+            <li>
+              Serve as the primary debugger for internal software issues
+              spanning infrastructure and application code.
+            </li>
+            <li>
+              Own new-employee IT onboarding end-to-end, from account
+              provisioning to access setup.
+            </li>
+          </ul>
+        </div>
+
+        <div className="mb-6">
+          <h3 className="text-lg font-bold">Software Engineer — Gruntwave</h3>
+          <p className="italic">Nov 2025 – Apr 2026</p>
+          <ul className="list-disc list-inside mt-2 space-y-1">
+            <li>
+              Refactored AI-generated Python code from company leadership
+              into production-ready releases, trimming redundant logic and
+              hardening for stable distribution.
+            </li>
+            <li>
+              Converted Python applications into standalone Windows and
+              macOS executables for release.
+            </li>
+            <li>
+              Built standalone desktop applications that interfaced with
+              Blender plugins for the studio&apos;s creative pipeline.
             </li>
           </ul>
         </div>
 
         <div className="mb-6">
           <h3 className="text-lg font-bold">
-            Sony — 3D Capture Project Support (Project-Based Contract)
+            Fullstack Developer / Cloud Engineer — Davant Systems (Contract)
           </h3>
-          <p className="italic">
-            May 2025 – Apr 2026 | Culver City, CA · Hybrid
-          </p>
+          <p className="italic">Mar 2023 – Feb 2026</p>
           <ul className="list-disc list-inside mt-2 space-y-1">
-            <li>Supported a confidential 3D capture project under NDA.</li>
             <li>
-              Built and maintained data collection workflows and validation
-              processes for photogrammetry pipelines.
+              Built a fullstack photobooth kiosk application (React,
+              Fastify) for on-site event use, including integration with a
+              physical printer.
+            </li>
+            <li>
+              Designed an offline-first data layer with SQLite3 so the kiosk
+              ran fully without an internet connection during events.
+            </li>
+            <li>
+              Built the photo capture-and-delivery pipeline, automatically
+              emailing captured photos to attendees and clients.
+            </li>
+            <li>
+              Owned the AWS cloud infrastructure supporting the kiosk
+              deployment, from provisioning through event-day reliability.
             </li>
           </ul>
         </div>
 
         <div className="mb-6">
           <h3 className="text-lg font-bold">
-            Davant Systems — Full-Stack Developer (Project-Based Contract)
+            Software Engineer / IT — Global Objects
           </h3>
-          <p className="italic">
-            Mar 2023 – Feb 2026 | Los Angeles, CA · Hybrid
-          </p>
+          <p className="italic">May 2023 – May 2024</p>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
-              Deployed Stable Diffusion to AWS with horizontal auto-scaling
-              &mdash; automated spin-up and teardown of EC2 instances based on
-              demand.
+              Refurbished and reconfigured legacy hardware to reliably run
+              AI models in on-set production environments.
             </li>
             <li>
-              Built the Photobooth Kiosk app end-to-end — real-time photo
-              delivery with configurable client branding. Increased event
-              engagement by 25%.
+              Led R&D evaluation of photogrammetry AI tools and models,
+              selecting which moved into production workflows.
+            </li>
+          </ul>
+        </div>
+
+        <div className="mb-6">
+          <h3 className="text-lg font-bold">Backend Engineer — Queery</h3>
+          <p className="italic">May 2022 – May 2023</p>
+          <ul className="list-disc list-inside mt-2 space-y-1">
+            <li>
+              Built backend APIs in Next.js/TypeScript to integrate
+              third-party services and expand product coverage.
             </li>
             <li>
-              Infrastructure and product work contributed to winning the CGW
-              Silver Edge Award at SIGGRAPH 2023.
+              Integrated the Eventbrite API and external event data sources,
+              improving event discovery for users.
             </li>
             <li>
-              Represented the company at SIGGRAPH and NAB, delivering live
-              software demos to industry audiences.
+              Containerized development workflows with Docker, reducing
+              environment drift and shortening new-developer onboarding.
+            </li>
+            <li>
+              Optimized backend query patterns and data flows, improving API
+              response times for core user-facing actions.
+            </li>
+          </ul>
+        </div>
+
+        <div className="mb-6">
+          <h3 className="text-lg font-bold">Fullstack Developer — BlueVishnu</h3>
+          <p className="italic">Mar 2022 – May 2022</p>
+          <ul className="list-disc list-inside mt-2 space-y-1">
+            <li>
+              Delivered a fullstack web application for a live brand
+              activation event under a tight, fixed deadline.
+            </li>
+            <li>
+              Built a customer data-capture database and integrated it
+              directly with the event-facing application.
+            </li>
+            <li>
+              Supported marketing operations with reliable, real-time data
+              handling throughout the live event.
+            </li>
+            <li>
+              Advised leadership on Python-based tooling and automation
+              opportunities beyond the immediate project.
             </li>
           </ul>
         </div>
 
         <div className="mb-6">
           <h3 className="text-lg font-bold">
-            Qeery — Backend Engineer (Project-Based Contract)
+            Software Engineering Tutor — General Assembly
           </h3>
-          <p className="italic">Feb 2024 – Jan 2025 | Los Angeles, CA</p>
+          <p className="italic">Nov 2021 – Feb 2022</p>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
-              Built the backend API for a queer event discovery app — REST
-              endpoints, Eventbrite integration for live event ingestion.
+              Mentored aspiring developers through hands-on coding sessions,
+              live debugging, and project completion.
             </li>
             <li>
-              Containerized the full dev environment with Docker and Supabase to
-              ensure parity between local and production databases.
+              Guided students through fullstack projects spanning
+              JavaScript, React, Node.js, Express, and MongoDB.
+            </li>
+            <li>
+              Delivered structured code reviews with actionable feedback on
+              code quality, architecture, and problem-solving approach.
             </li>
           </ul>
         </div>
-
-        <div className="mb-6">
-          <h3 className="text-lg font-bold">
-            NHG — Fullstack Engineer (Project-Based Contract)
-          </h3>
-          <p className="italic">
-            Jun 2024 – Dec 2024 | San Francisco, CA · Remote
-          </p>
-          <ul className="list-disc list-inside mt-2 space-y-1">
-            <li>
-              Built the brand&apos;s first web presence end-to-end — storefront,
-              product pages, and automated lead capture via Google Sheets API
-              that eliminated all manual data entry.
-            </li>
-            <li>
-              Designed a PostgreSQL database to future-proof operations and
-              enable future app development.
-            </li>
-            <li>
-              Delivered as a complete, production-ready package to the client.
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-semibold mb-2">Education</h2>
-        <p>
-          <strong>General Assembly, San Francisco, CA</strong>
-        </p>
-        <p className="italic">
-          Software Engineering Certification | Nov 2021 – Feb 2022
-        </p>
       </section>
     </main>
   );
